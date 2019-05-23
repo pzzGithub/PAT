@@ -6,3 +6,4 @@
 !/AdvancedLevel/*.c
 !/CMakeLists.txt
 !/.gitignore
+!/LICENSE
