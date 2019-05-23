@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.14)
+project(PAT)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+
+add_executable(1001 BasicLevel/1001.c)
+add_executable(1002 BasicLevel/1002.c)
+add_executable(1004 BasicLevel/1004.c)
+add_executable(1005 BasicLevel/1005.c)
+add_executable(1006 BasicLevel/1006.c)
+add_executable(1007 BasicLevel/1007.c)
+add_executable(1008 BasicLevel/1008.c)
+add_executable(1009 BasicLevel/1009.c)
+add_executable(1010 BasicLevel/1010.c)
+add_executable(1011 BasicLevel/1011.c)
+add_executable(1012 BasicLevel/1012.c)
+add_executable(1013 BasicLevel/1013.c)
+add_executable(1014 BasicLevel/1014.c)
+add_executable(1015 BasicLevel/1015.c)
