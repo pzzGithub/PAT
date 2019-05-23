@@ -4,3 +4,5 @@
 !/AdvancedLevel
 !/BasicLevel/*.c
 !/AdvancedLevel/*.c
+!/CMakeLists.txt
+!/.gitignore
