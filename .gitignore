@@ -1,9 +1,2 @@
-/*
-!/README.md
-!/BasicLevel
-!/AdvancedLevel
-!/BasicLevel/*.c
-!/AdvancedLevel/*.c
-!/CMakeLists.txt
-!/.gitignore
-!/LICENSE
+/cmake-build-debug
+/.idea
