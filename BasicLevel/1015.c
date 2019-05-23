@@ -71,19 +71,15 @@ int main() {
     int firstCount = 0, secondCount = 0, thirdCount = 0, fourthCount = 0;
     for (int j = 0; j < N; ++j) {
         if (students[j].talent >= H && students[j].virtue >= H) {
-            //TODO maybe cause error
             firstStudents[firstCount] = students[j];
             firstCount++;
         } else if (students[j].talent >= L && students[j].talent < H && students[j].virtue >= H) {
-            //TODO maybe cause error
             secondStudents[secondCount] = students[j];
             secondCount++;
         } else if (students[j].talent >= L && students[j].virtue < H && students[j].virtue >= students[j].talent) {
-            //TODO maybe cause error
             thirdStudents[thirdCount] = students[j];
             thirdCount++;
         } else if (students[j].virtue >= L && students[j].talent > students[j].virtue) {
-            //TODO maybe cause error
             fourthStudents[fourthCount] = students[j];
             fourthCount++;
         }
