@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//TODO Good solution to this question
 int main() {
     int n, table[101] = {0}, num;
     scanf("%d", &n);
