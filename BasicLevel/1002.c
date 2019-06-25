@@ -1,14 +1,18 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     char num[100];
-    while (scanf("%s", num) != EOF) {
+    while (scanf("%s", num) != EOF)
+    {
         int sum = 0;
         int i = 0;
-        while (1) {
+        while (1)
+        {
             if (num[i] == '\0')
                 break;
-            else {
+            else
+            {
                 sum += num[i] - '0';
                 i++;
             }

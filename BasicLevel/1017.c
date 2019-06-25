@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main()
+{
     char A[1001], res[1001] = {'\0'}, *p = res;
     int B;
     int twodigit, remainder = 0;
     scanf("%s %d", A, &B);
-    for (int i = 0; A[i]; ++i) {
+    for (int i = 0; A[i]; ++i)
+    {
         twodigit = remainder * 10 + (A[i] - '0');
         res[i] = twodigit / B + '0';
         remainder = twodigit % B;

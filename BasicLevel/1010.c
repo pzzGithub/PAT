@@ -1,14 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main()
+{
     int m, n, flag = 1;
-    while (scanf("%d %d", &m, &n) != EOF) {
-        if (n > 0) {
-            if (flag == 1) {
+    while (scanf("%d %d", &m, &n) != EOF)
+    {
+        if (n > 0)
+        {
+            if (flag == 1)
+            {
                 printf("%d %d", m * n, n - 1);
                 flag = 0;
-            } else
+            }
+            else
                 printf(" %d %d", m * n, n - 1);
         }
     }

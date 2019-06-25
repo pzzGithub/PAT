@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char getMax(int C, int B, int J) {
+char getMax(int C, int B, int J)
+{
     if (C > B && C >= J)
         return 'C';
     if (B >= C && B >= J)
@@ -9,12 +10,14 @@ char getMax(int C, int B, int J) {
     return 'J';
 }
 
-int main() {
+int main()
+{
     int N;
     int AWinC = 0, AWinB = 0, AWinJ = 0, BWinC = 0, BWinB = 0, BWinJ = 0;
     char a, b;
     scanf("%d", &N);
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; ++i)
+    {
         scanf(" %c %c", &a, &b);
         if (a == 'C' && b == 'J')
             AWinC++;

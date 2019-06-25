@@ -1,14 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main()
+{
     int num;
     char ch;
     scanf("%d", &num);
     while (getchar() != '\n');
-    for (int i = 0; i < num; ++i) {
+    for (int i = 0; i < num; ++i)
+    {
         int count[3] = {0}, pos = 0;
-        while ((ch = getchar()) != '\n') {
+        while ((ch = getchar()) != '\n')
+        {
             if (ch == 'A')
                 count[pos]++;
             else if (ch == 'P' && pos == 0)
@@ -25,7 +28,8 @@ int main() {
             puts("NO");
 
         if (ch != '\n')
-            while (getchar() != '\n');
+            while (getchar() != '\n')
+                ;
     }
     return 0;
 }
