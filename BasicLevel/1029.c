@@ -18,7 +18,7 @@ int main()
     //第一轮，正确的字符串，每出现一个字符，该字符ascii码为索引的数组的值+1
     for (int i = 0; i < strlen(str1); i++)
         ascii[toupper(str1[i])]++;
-    
+
     //第二轮，真实的字符串，每出现一个字符，该字符ASCII码为索引的数组的值-1
     for (int i = 0; i < strlen(str2); i++)
         ascii[toupper(str2[i])]--;
@@ -26,9 +26,9 @@ int main()
     //按原始字符串的顺序，逐个确定该ASCII数组的值，大于0则缺键
     for (int i = 0; i < strlen(str1); i++)
     {
-        if (ascii[str1[i]] > 0){
+        if (ascii[str1[i]] > 0) {
             printf("%c", str1[i]);
-            ascii[str1[i]]=0;
+            ascii[str1[i]] = 0;
         }
     }
 
