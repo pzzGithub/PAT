@@ -1,3 +1,7 @@
+//
+// Created by 44811 on 2019/8/3.
+// 1030 完美数列
+//
 #include <stdio.h>
 #include <stdlib.h>
 
