@@ -1,4 +1,5 @@
-# PAT Practice
-PAT Test in pure C。
+# PAT Solution
+- Basic(Update now)
+- Advanced(TODO)
 
-
+PAT solution in pure C.
